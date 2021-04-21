@@ -86,6 +86,8 @@ function includesNumber(array, n) {
   if (array.length === 1 && array[0] === n) {
     return true
   }
-  
+  if (array.length > 1 && array[0] !==n) {
+    array.
+  }
   
 }
