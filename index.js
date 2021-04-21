@@ -77,13 +77,14 @@ function maxOf(array) {
 }
 
 function includesNumber(array, n) {
+  if (array.length === 0) {
+    return false
+  }
   if (array.length === 1 && array[0] === n) {
     return true
   }
   if (array.length === 1 && array[0] !== n) {
     return false
   }
-  if (array.length >= 1) {
-    
-  }
+  
 }
