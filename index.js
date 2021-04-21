@@ -74,5 +74,8 @@ function maxOf(array) {
     //SOLUTION KEY
     return Math.max(array.pop(), maxOf(array));    
   }
-    
+}
+
+function includesNumber(array, n) {
+  
 }
